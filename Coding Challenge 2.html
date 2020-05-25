@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Coding Challenge 2</title>
+	</head>
+	<body>
+		<script>
+			var johnAverage = (89 + 120 + 103) / 3;
+			var mikeAverage = (116 + 94 + 123) / 3;
+			var maryAverage = (97 + 134 + 105) / 3;
+			console.log("John's average: " + johnAverage);
+			console.log("Mike's average: " + mikeAverage);
+			console.log("Mary's average: " + maryAverage);
+			if (johnAverage < mikeAverage && maryAverage < mikeAverage) {
+				console.log("Mike's team wins!");
+			} else if (johnAverage > mikeAverage && johnAverage > maryAverage) {
+				console.log("John's team wins!");
+			} else if (johnAverage < maryAverage && mikeAverage < maryAverage) {
+				console.log("Mary's team wins!");
+			} else {
+				console.log("It's a tie!");
+			}
+		</script>
+	</body>
+</html>
